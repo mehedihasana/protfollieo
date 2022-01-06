@@ -1,0 +1,122 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.half-width div{
+    background-color: #fff;
+    margin-left: 3px solid red;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    border: 0;
+    background-color: tomato;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 48px;
+}
+.font-color{
+    color: orange;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home-header, .stay-safe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+.text-large-div{ grid-area: menu;}
+.image-div-small{ grid-area: right;}
+.develop-div{
+    display: grid; 
+    grid-template-areas: 'right menu menu ';
+}
+.global-community{
+    display: grid; 
+    grid-template-areas: ' menu menu right';
+}
+
+.home-header div, .develop-div div, .global-community div, .stay-safe div, .my-mission div{
+    padding: 10px;
+}
+.my-mission{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mission-mini-div{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.mission-mini-div img{
+    width: 50%;
+}
+
+
+#mission{
+    background-color: #b9e0e99f
+}
+
+#vission{
+    background-color: #e9c5bfb3;
+}
+
+#goals{
+    background-color: #f0f0b3af;
+}
+
+#background-global{
+    background-image: url('images/shape-1.png');
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 0;
+    padding: 35px;
+}
+#background-develop{
+    background-image: url('images/shape-1.png');
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin: 0 ;
+    padding: 45px;
+}
+
+#stay-safe-text{
+    margin-top: 30%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
